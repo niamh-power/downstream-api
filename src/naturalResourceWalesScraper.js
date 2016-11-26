@@ -1,6 +1,6 @@
 var cheerio = require('cheerio');
 
-var NRWController {
+var NRWController : {
 
   getLatestValue: function(data, callback) {
     data('#MainContent_LatestValueWithUnits').filter(function(){

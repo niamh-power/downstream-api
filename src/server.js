@@ -2,8 +2,9 @@
 var express = require('express');
 var app = express();
 
-var nrwController = require('./naturalResourceWalesScraper');
 var environmentAgencyController = require('./environmentAgencyApi');
+
+var nrwController = require('./naturalResourceWalesScraper');
 
 app.get('/ea/level',
 	function(req, res) {
